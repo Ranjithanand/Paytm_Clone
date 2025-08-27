@@ -1,7 +1,7 @@
 # Paytm_Clone
 A simple and responsive clone of the Paytm website built using HTML and CSS. This project replicates the homepage layout and design to practice front-end web development skills.
 
-Paytm Clone 💳
+Paytm Clone 
 
 A front-end clone of the Paytm website created using HTML and CSS. This project replicates the homepage design of Paytm to help improve front-end development skills, understand layout structuring, and practice responsive web design.
 
