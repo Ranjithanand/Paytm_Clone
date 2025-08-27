@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: auto;
+    height: 50px;
+    background-color: white;
+}
+
+.nav1> img{
+    margin-top: 20px;
+    margin-left: 180px;
+    position: relative;
+    cursor: pointer;
+}
+.nav2{
+    margin-left: 350px;
+    margin-top: -22px;
+    display: flex;
+    cursor: pointer;
+}
+
+.nav2 li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav2 a{
+    text-decoration: none;
+}
+.nav2 p{
+    color: black;
+    margin-left: 20px;
+}
+
+.tit1{
+    position: relative;
+    display: inline-block;
+}
+
+.recharge{
+    border: 2px solid white;
+    margin: 0;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    background-color: blueviolet;
+    min-width: 120px;
+    box-shadow: 0px 4px 8px rgb(0,0,0,0.2);
+    padding: 0px;
+    z-index: 1;
+}
+
+.dropdown li a{
+    display: block;
+    padding: 8px 1px;
+    color: #333;
+    transition: 0.2s;
+}
+
+.dropdown li a:hover{
+    background-color: #ddd;
+}
+
+.recharge:hover .dropdown{
+    display: block;
+} 
+
+
+
+
+
+/* download */
+.download >img{
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+.download{
+    display: flex;
+    cursor: pointer;
+}
+
+.download p{
+    margin-left: 5px;
+}
+
+/* sign in */
+.sign{
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.sign >img{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.sign p{
+    margin-left: 5px;
+}
+
+
+/* container */
+
+.container{
+   height: 320px;
+   width: auto;
+   background-color: rgb(226, 245, 248);
+   position: relative;
+
+}
+
+.travel1 p{
+    display: flex;
+}
+
+
+.cflight{
+    margin-left: 180px;
+    height: 20px;
+    width: 80px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.cbus{
+    margin-left:50px ;
+    margin-top: 30px;
+    height: 20px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.ctrain{
+    height: 20px;
+    width: 80px;
+    margin-left:50px ;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cintflight{
+    height: 20px;
+    width: 90px;
+    margin-left:50px ;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* Travel logo */
+
+.travel2{
+    height: 80px;
+    width: 150px;
+    margin-left: 1150px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+/* trip box */
+
+.search{
+    height: 200px;
+    width: 1150px;
+    background-color: white;
+    margin-left: 180px;
+    margin-top: -20px;
+    border-radius: 20px;
+    
+}
+
+.trip{
+    font-size: 16px;
+    display: flex;
+    padding-left: 40px;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.trip1{
+    margin-left: 40px;
+    margin-top: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.fon1{
+    color: gray;
+    margin-left: 30px;
+    
+}
+.fon2{
+    color: gray;
+    margin-left: 70px;
+}
+
+.trip2{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+
+#searchfrom{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(226, 245, 248);
+    border-radius: 20px;
+    border: solid black;
+    cursor: pointer;
+}
+
+#searchto{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(226, 245, 248);
+    border-radius: 20px;
+    border: solid black;
+    margin-top: -2px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+/* search right */
+
+#right{
+    height: 100px;
+    width: 1px;
+    background-color: rgb(81, 71, 71);
+    margin-left: 450px;
+    margin-top: -100px;
+}    
+
+.date p{
+    color: gray;
+    display: flex;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.date-table{
+    height: 70px;
+    width: 150px;
+    background-color: rgb(226, 245, 248);
+    border-radius: 30px;
+    border: solid black;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.date-table >p{
+    padding-top: 25px;
+}
+
+.line1{
+     height: 100px;
+    width: 1px;
+    background-color: rgb(81, 71, 71);
+    margin-left: 200px;
+    margin-top: -95px;
+}
+
+/* travel search */
+
+.search12{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(226, 245, 248);
+    border-radius: 30px;
+    border: solid black;
+    margin-left: 670px;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+
+.search12 p{
+    font-size: 50px; 
+    align-items: center;
+    text-align: center;
+}
+
+/* horizontal line */
+
+.hrline{
+    height: 1px;
+    width: 1100px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* search footer*/
+#footer{
+    height: 10px;
+    width: 200px;
+    color: grey;
+    margin-left: 20px;
+    margin-top: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+#footer >img{
+    height: 15px;
+    cursor: pointer;
+}
+.colorg{
+    color: #57B265;
+    display: inline;
+}
+
+.footer1{
+    width: 100px;
+    height: 35px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-left: 190px;
+    margin-top: -12px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.colorg2{
+    color: grey;
+}
+
+.footer2{
+    width: 100px;
+    height: 35px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-left: 320px;
+    margin-top: -39px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer3{
+    width: 100px;
+    height: 35px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: -37px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+/* container-2 */
+.paytmmoney{
+    height: 550px;
+    width: 1100px;
+    background-color: #E6EEF9;
+    margin-top: 80px;
+    border-radius: 25px;
+}
+
+.paytmmoney img{
+    height: 50px;
+    width: 140px;
+    padding-left: 100px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.title-1{
+    height: 50px;
+    width: 300px;
+    padding-left:100px ;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.text-change{
+    color:#00BAF2;
+}
+
+.titlepara{
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.phone-img img{
+    height: 600px ;
+    width: 600px;
+    margin-top: -430px;
+    margin-left: 400px;
+}
+
+/* Learn Search */
+
+.learn{
+    height: 25px;
+    width: 105px;
+    background-color: #002971;
+    color: white;
+    border-radius: 20px;
+    margin-top: -150px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.learn >p{
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+/* Learn Search Footer */
+
+.paytm-money-footer{
+    margin-left: 100px;
+    font-size: 13px;
+    margin-top: 25px;
+    height: 100px;
+    font-size: 12px;
+}
+
+.text-change1{
+    cursor: pointer;
+    color: #00BAF2;
+}
+
+/* learn more  */
+
+.learn-more img{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.learn-more{
+    height: 80px;
+    width: 1100px;
+    background-color:#00A5F7;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.learn-more-p >p{
+    margin-top: -38px;
+    margin-left: 110px;
+    font-size: 18px;
+    color: white;
+}
+
+.learn-more-s{
+    height: 30px;
+    width: 140px;
+    background-color: #00A5F7;
+    border: solid white;
+    margin-left: 900px;
+    margin-top: -25px;
+    border-radius: 60px;
+}
+
+.learn-more-s >p{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+/* credit cards */
+
+.credit-cards{
+    background-color: #E3F1FE;
+    height: 600px;
+    width: 520px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: left;
+}
+
+.credit-cards1 img{
+    height: 50px;
+    width: 110px;
+}
+
+.credit-title{
+    font-size: 50px;
+    margin-left: 35px;
+}
+
+.credit-p{
+    margin-left: 35px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.credit-s{
+    height: 20px;
+    width: 100px;
+    border: solid #002971;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.credit-cards-img >img{
+    height: 25px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -380px;
+}
+
+.credit-cards-footer >img{
+    height: 250px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/* paytm-insurance broking */
+
+.paytm-insurance{
+    background-color: #DAF6FF;
+    height: 600px;
+    width: 520px;
+    margin-top: 50px;
+    border-radius: 20px;
+    float: right;
+}
+
+.paytm-insurance-img >img{
+    height: 45px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.paytm-insurance-t{
+    font-size: 50px;
+    margin-left: 35px;
+}
+
+.paytm-insurance-p{
+    font-size: 17px;
+    margin-left: 35px;
+}
+
+.paytm-insurance-s{
+    height: 20px;
+    width: 100px;
+    border: solid #002971;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.paytm-insurance-img-1 img{
+    height: 300px;
+    width: 500px;
+}
+
+/* <!-- pay anyone --> */
+
+.pay-anyone-paytm{
+    height: 500px;
+    width: 1100px;
+    background-color: #F7F9FC;
+    margin-top: 700px;
+    border-radius: 20px;
+}
+
+.pay-anyone-img img{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.pay-anyone-t{
+    margin-top: -400px;
+    margin-left:60px ;
+    font-size: 50px;
+    width: 450px;
+}
+
+.pay-anyone-img2 img{
+    height: 400px;
+    width: 400px;
+    margin-top: -400px;
+    margin-left: 600px;
+}
+
+.pay-anyone-p{
+    font-size: 17px;
+    margin-left: 60px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.pay-anyone-footer1 img{
+    height: 45px;
+    width: 149px;
+    margin-left: 60px;
+}
+
+.pay-anyone-footer2 img{
+    height: 45px;
+    width: 149px;
+    margin-left: 60px;
+}
+
+/* paytm for business */
+
+.paytm-business{
+    height: 600px;
+    width: 1100px;
+    background-color:#DAF6FF;
+    margin-top: 1200px;
+    border-radius: 50px;
+}
+
+.paytm-business-img img{
+    height: 50px;
+    width: 75px;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+
+.paytm-business-img2 img{
+    height: 540px;
+    width: 540px;
+    float: right;
+    margin-top: -430px;
+}
+
+.paytm-business-t{
+    font-size: 50px;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 20px;
+    float:left ;
+}
+
+.paytm-business-p{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 17px;
+}
+
+.paytm-business-s{
+    margin-top: 250px;
+    margin-left: 60px;
+     height: 20px;
+    width: 100px;
+    border: solid #002971;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* footer end */
+
+.footer-end{
+    height: 250px;
+    width: 1100px;
+    margin-top: 20px;
+}
+
+.hr-1{
+    margin-left: 135px;
+}
+
+.hr-2{
+    margin-left: 75px;
+}
+
+.hr-3{
+    margin-left: 136px;
+}
+
+.hr-4{
+    margin-left: 150px;
+}
+
+.hr-5{
+    margin-left: 362px;
+}
+
+.hr-6{
+    margin-left: 207px;
+}
+
+.hr-7{
+    margin-left: 207px;
+}
+
+.hr-8{
+    margin-left: 165px;
+}
+
+.hr-9{
+    margin-left: 206px;
+}
+
+.hr-10{
+    margin-top: 10px;
+}
+
+/* footer */
+
+.final-footer{
+    width: 100%;
+    background-color: #00A5F7;
+    margin-top: 2770px;
+}
+
+.footer-l{
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.footer-r{
+    margin-left: 1060px;
+    margin-top: -20px;
+}
+
+.follow-us{
+    margin-left: 1140px;
+    margin-top: -20px;
+}
